@@ -1,9 +1,68 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <img src="images/logo.png">
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:ital@0;1&family=Roboto:ital,wght@0,900;1,300&family=Source+Code+Pro&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header white-bg border-gray">
+        <img class="logo" src="./images/logo.png" alt="oldagram logo" />
+        <img
+          class="user-avatar"
+          src="./images/user-avatar.png"
+          alt="user avatar"
+        />
+      </header>
+      <main>
+        <section class="white-bg border-gray post-content-1">
+          <div class="user-info">
+            <div class="avatar">
+              <img
+                class="user-img"
+                src="./images/avatar-vangogh.jpg"
+                alt="Vincent Van Gogh portraite"
+              />
+            </div>
+
+            <div class="name-and-location">
+              <p class="bold-text user-fullname">Vincent van Gogh</p>
+              <p class="location-text">Zudert,Netherlands</p>
+            </div>
+          </div>
+
+          <img
+            class="post-img"
+            src="./images/post-vangogh.jpg"
+            alt="a picture posted by vangogh"
+          />
+          <div class="post-body">
+            <div class="icons">
+              <img
+                class="like-btn"
+                src="./images/icon-heart.png"
+                alt="a heart icon for instgram like button"
+              />
+              <img class="comment-btn" src="./images/icon-comment.png" alt="a comment icon" />
+              <img class="share-btn" src="./images/icon-dm.png" alt="a share icon for the post" />
+            </div>
+
+            <p class="bold-text like-count">21,492 likes</p>
+            <p class="username-caption">
+              <span class="bold-text">vincey1853</span> just took a few mushrooms lol
+            </p>
+          </div>
+        </section>
+        <section class="white-bg post-content-2"></section>
+        <section></section>
+      </main>
+    </div>
+  </body>
 </html>
